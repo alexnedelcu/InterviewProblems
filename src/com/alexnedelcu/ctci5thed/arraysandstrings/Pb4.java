@@ -1,11 +1,18 @@
 package com.alexnedelcu.ctci5thed.arraysandstrings;
+
+/**
+ * Input: "M r Joh n Smith Output: "Mr%20Dohn%20Smith"
+ *  
+ * @author Alex
+ *
+ */
 class Pb4 {
 	public static void main (String argv[] ) {
 		char [] input = new char [50];
 		int spaces = 0;
 		
 		input[0] = 'H';
-		input[1] = 'i';
+		input[1] = 'i';	
 		input[2] = ' ';
 		input[3] = 't';
 		input[4] = 'h';
@@ -17,9 +24,6 @@ class Pb4 {
 		input[10] = '!';
 		
 		int stringLength = 11;
-		
-		
-		
 		
 		// count the number of spaces needed to replace
 		for (int i=0; i<input.length; i++) {
